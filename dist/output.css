@@ -782,16 +782,16 @@ video {
   max-width: 80rem;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
 .max-w-lg {
   max-width: 32rem;
 }
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .max-w-3xl {
@@ -837,16 +837,16 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-cols-8 {
   grid-template-columns: repeat(8, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -873,20 +873,16 @@ video {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .gap-y-16 {
@@ -1154,14 +1150,19 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pt-1 {
@@ -1184,12 +1185,28 @@ video {
   padding-right: 1rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .pr-6 {
   padding-right: 1.5rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pb-6 {
@@ -1206,46 +1223,6 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -1277,14 +1254,14 @@ video {
   line-height: 2.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-medium {
@@ -1299,16 +1276,16 @@ video {
   font-weight: 700;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .font-extralight {
   font-weight: 200;
 }
 
 .font-light {
   font-weight: 300;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .uppercase {
@@ -1789,6 +1766,11 @@ video {
   .lg\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:py-32 {
