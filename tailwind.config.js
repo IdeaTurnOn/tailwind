@@ -11,7 +11,10 @@ module.exports = {
       },
       fontFamily: {
         'pop': ['Poppins', 'sans-serif'],
-        
+        'cadpara': ['Metrophobic', 'sans-serif'],
+        'cadheading': ['Oxanium', 'cursive'],
+        'cadnav': ['Play', 'sans-serif'],
+
     },
     },
   },
