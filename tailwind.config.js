@@ -14,6 +14,8 @@ module.exports = {
         'cadpara': ['Metrophobic', 'sans-serif'],
         'cadheading': ['Oxanium', 'cursive'],
         'cadnav': ['Play', 'sans-serif'],
+        'alilogo': ['Anton', 'sans-serif'],
+
 
     },
     },
